@@ -11,6 +11,8 @@ lan chat em python
  
 
 # referencias e fontes
+## documentacao flask socket io
+[Flask-SocketIO](https://flask-socketio.readthedocs.io/en/latest/)
 ## documentação e tests em python
 [Eduardo Mendes](https://www.youtube.com/user/mendesesduardo/videos)
 ### documentação
