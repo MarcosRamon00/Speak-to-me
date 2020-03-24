@@ -37,8 +37,10 @@
         })
 
         $('#send').on('click', function() {
-            socket.send($('#myMessage').val());
-            $('#myMessage').val('');
+            if ($('#myMessage').val() != ''){
+                socket.send($('#myMessage').val());
+                $('#myMessage').val('');
+            }
         })
     </script>
 </body>
